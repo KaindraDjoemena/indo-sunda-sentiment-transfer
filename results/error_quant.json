@@ -1,0 +1,31 @@
+{
+  "active_features_median": 4.5,
+  "n_low": 200,
+  "n_high": 200,
+  "n_neutral_low": 55,
+  "n_neutral_high": 41,
+  "svm": {
+    "all_low": 0.465,
+    "all_high": 0.31,
+    "neu_low": 0.2909090909090909,
+    "neu_high": 0.24390243902439024
+  },
+  "nb": {
+    "all_low": 0.4149999999999999,
+    "all_high": 0.29,
+    "neu_low": 0.6727272727272727,
+    "neu_high": 0.5365853658536586
+  },
+  "rf": {
+    "all_low": 0.725,
+    "all_high": 0.771,
+    "neu_low": 0.0,
+    "neu_high": 0.04390243902439024
+  },
+  "mlp": {
+    "all_low": 0.386,
+    "all_high": 0.307,
+    "neu_low": 0.38545454545454544,
+    "neu_high": 0.42439024390243907
+  }
+}

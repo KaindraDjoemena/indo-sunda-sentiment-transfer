@@ -1,0 +1,28 @@
+# The public repository holds only the code, the results and how to reproduce them.
+# Everything else in this folder stays local.
+/*
+!/.gitignore
+!/README.md
+!/Makefile
+!/requirements.txt
+!/src/
+!/results/
+
+# Local tools for the journal manuscript (not part of the experiments)
+/src/generate_jutisi_docx.py
+/src/paper_tables.py
+/src/inspect_template.py
+/src/inspect_template_2.py
+/src/analyst.py
+/src/diag_rf.py
+/src/colab_baseline.py
+/src/colab_baseline.ipynb
+
+# Outputs that the paper does not use
+/results/colab_stretch.*
+/results/rf_transfer_diagnosis.md
+/results/ablation.log
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,49 @@
+{
+  "word_tfidf": {
+    "balanced": {
+      "macro_f1_mean": 0.1564660257558267,
+      "macro_f1_std": 0.0029264801278766736,
+      "acc_mean": 0.252,
+      "acc_std": 0.0010000000000000009,
+      "avg_predictions": {
+        "neutral": 390.6,
+        "positive": 9.4
+      }
+    },
+    "none": {
+      "macro_f1_mean": 0.19852445480540368,
+      "macro_f1_std": 0.013494496284764521,
+      "acc_mean": 0.275,
+      "acc_std": 0.007582875444051532,
+      "avg_predictions": {
+        "negative": 5.4,
+        "neutral": 378.0,
+        "positive": 16.6
+      }
+    }
+  },
+  "char_tfidf": {
+    "balanced": {
+      "macro_f1_mean": 0.4587120770713809,
+      "macro_f1_std": 0.01742820607430881,
+      "acc_mean": 0.46749999999999997,
+      "acc_std": 0.016355427233796117,
+      "avg_predictions": {
+        "negative": 65.4,
+        "neutral": 252.6,
+        "positive": 82.0
+      }
+    },
+    "none": {
+      "macro_f1_mean": 0.5450085277739578,
+      "macro_f1_std": 0.00987106972941323,
+      "acc_mean": 0.5405,
+      "acc_std": 0.009669539802906843,
+      "avg_predictions": {
+        "negative": 159.2,
+        "neutral": 157.8,
+        "positive": 83.0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "su->su/svm": {
+    "macro_f1_mean": 0.7224575729717592,
+    "macro_f1_std": 0.0
+  },
+  "su->su/nb": {
+    "macro_f1_mean": 0.6821180892076414,
+    "macro_f1_std": 0.0
+  },
+  "su->su/rf": {
+    "macro_f1_mean": 0.7164052053388097,
+    "macro_f1_std": 0.0073711349023884015
+  },
+  "su->su/mlp": {
+    "macro_f1_mean": 0.7150335244107228,
+    "macro_f1_std": 0.024042574087023722
+  },
+  "id->su/svm": {
+    "macro_f1_mean": 0.6108593241979449,
+    "macro_f1_std": 0.0
+  },
+  "id->su/nb": {
+    "macro_f1_mean": 0.6163949706866875,
+    "macro_f1_std": 0.0
+  },
+  "id->su/rf": {
+    "macro_f1_mean": 0.1564660257558267,
+    "macro_f1_std": 0.0029264801278766736
+  },
+  "id->su/mlp": {
+    "macro_f1_mean": 0.6436614925557412,
+    "macro_f1_std": 0.005561835214864414
+  }
+}
